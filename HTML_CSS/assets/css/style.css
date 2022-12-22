@@ -135,6 +135,8 @@ p.grid-description{
 .form-group label{
     display: block;
     margin-bottom: 1rem;
+    font-size: 15px;
+    font-style: italic;
 
 }
 
@@ -175,6 +177,7 @@ p.grid-description{
     color: rgb(168, 168, 168);
 }
 
+
 .rodape-pag{
     text-align: center;
     font-style: italic;
@@ -201,12 +204,6 @@ p.grid-description{
     color: var(--primary-color);
     transform: rotate(-90deg);
     border: 0.1rem solid var(--primary-color);
-}
-
-.responsive-table{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    background: none;
 }
 
  /* Ou seja, quando a minha tela chegar à esta largura
