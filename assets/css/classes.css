@@ -1,38 +1,45 @@
-/* Classe main */
+
 .main-bg {
-   /*background-image: url('../img/main-bg.svg');*/
-   background-image: url('../img/210.jpg');
-   background-size: cover;
-   background-position: center center;
-   color: var(--white-color);
+  background-image: url('../img/main-bg.svg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+
+.main-bg-Natal {
+  background-image: url('../img/210.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+
+.main-bg-contact {
+  background-image: url('../img/29_christmas_mesa_de_trabajo_1.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
 }
 
 .white-bg {
-   background: var(--white-color);
-   color: var(--primary-color);
+  background: var(--white-color);
+  color: var(--primary-color);
 }
 
-/* Classe content */
 .main-content {
-   /* Largura máxima do site */
-   max-width: 120rem;
-   margin: 0 auto;
-   padding: 10rem var(--gap);
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 10rem var(--gap);
 }
 
-/* Como vai ficar o conteudo, ocupando todo
- o espaço */
 .section {
-   min-height: 100vh;
+  min-height: 100vh;
 }
 
-/* Classe criada para dar o espaçamento no menu */
-.menu-spacing{
-  height: 7.5rem;  
+.menu-spacing {
+  height: 65px;
 }
 
-body .full-width{
-   width: 100%;
-   flex: 1 1 100%;
+body .full-width {
+  width: 100%;
+  flex: 1 1 100%;
 }
-
