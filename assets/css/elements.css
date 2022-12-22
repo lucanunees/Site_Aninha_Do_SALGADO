@@ -88,4 +88,5 @@ table td, table th {
 
 tfoot td, table th {
   background: var(--light-gray-color);
+  color: black;
 }
