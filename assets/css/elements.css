@@ -99,5 +99,6 @@ table caption{
 }
 
 tfoot td, table th{
-    background-color: rgb(221, 217, 217);
+    color: black;
+    background-color: rgb(255, 255, 255);
 }

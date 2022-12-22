@@ -76,6 +76,9 @@ p{
 .responsive-table{
     overflow: hidden;
     overflow-x: auto;
+    /*
+    font-family: 'Montserrat', sans-serif;
+    */
 }
 
 table{
@@ -102,3 +105,4 @@ tfoot td, table th{
     color: black;
     background-color: rgb(255, 255, 255);
 }
+

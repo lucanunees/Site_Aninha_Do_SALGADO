@@ -94,8 +94,8 @@ p.grid-description{
 
 .gallery-img{
     width: 100%;
-    max-width: 36rem;
-    max-height: 36rem;
+    max-width: 50rem;
+    max-height: 50rem;
     overflow: hidden;
 }
 
@@ -202,6 +202,13 @@ p.grid-description{
     transform: rotate(-90deg);
     border: 0.1rem solid var(--primary-color);
 }
+
+.responsive-table{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+}
+
  /* Ou seja, quando a minha tela chegar à esta largura
  ele irá quebrar meu site se ajustando para o formato da tela
  pode ser mobile.  */
@@ -209,7 +216,6 @@ p.grid-description{
     .intro-content,
     .grid{
         grid-template-columns: 1fr;
-        margin-right: 1rem;
     }
 
     .gallery-img{
@@ -276,27 +282,4 @@ p.grid-description{
         display: none;
     }
 
-    h1 {
-        font-size: 4rem;
-      }
-    
-      h2 {
-        font-size: 3.6rem;
-      }
-    
-      h3 {
-        font-size: 3.4rem;
-      }
-    
-      h4 {
-        font-size: 3.2rem;
-      }
-    
-      h5 {
-        font-size: 3rem;
-      }
-    
-      h6 {
-        font-size: 2.8rem;
-      }
 }
